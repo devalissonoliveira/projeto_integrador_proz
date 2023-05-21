@@ -20,10 +20,16 @@ a{
     text-decoration: none;
 }
 
-header{
+header .menu{
     width: 100%;
-    height: 100%;
+    height: 110%;
     display: flex;
     justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
+header .logo{
+    align-items: left;
 }
