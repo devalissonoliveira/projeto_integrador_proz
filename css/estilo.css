@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
 
-/* font-family: 'Climate Crisis', cursive; */
+/* font-family: 'Oswald', sans-serif; */
 
 body{
     margin: 0px;
-    font-family: font-family: 'Climate Crisis', cursive;
+    font-family: 'Oswald', cursive;
 }
 * {
     margin: 0px;
@@ -16,11 +16,14 @@ html{
     scroll-behavior: smooth;
 }
 
-a {
+a{
     text-decoration: none;
 }
 
 header{
     width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
 
 }
