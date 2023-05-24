@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
+
+/* font-family: 'Oswald', sans-serif; */
+
+body{
+    margin: 0px;
+    font-family: 'Oswald', cursive;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+header .menu{
+    width: 100%;
+    height: 110%;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+header .logo{
+    align-items: left;
+}
