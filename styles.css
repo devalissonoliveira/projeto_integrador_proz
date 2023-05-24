@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{    
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    background: rgb(121,121,121);
+    background: linear-gradient(180deg, rgba(121,121,121,0.5746673669467788) 0%, rgba(255,255,255,0) 80%);
+}
+
+.menu li:hover{
+    transform: scale(1.2);
+}
+
+.menu li{
+    transition: 0.3s ease-in-out;
+}
+
+.logo{
+    margin: 2%;
+}
+
+.menu {
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+    gap: 2%;
+}
+
+.topo-container{
+    display: flex;
+    max-height: 50vw;
+}
+
+
+.topo-container img{
+    width: 100%;
+}
+
+
+.topo-texto{
+    position: absolute;
+    width: 100%;
+    height: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+
+.topo-texto h3{
+    font-size: 30px;
+    text-shadow: 0.1em 0.1em 0.3em #333;
+    color: white;
+}
+
+.topo-texto h1{
+    font-size: 100px;
+    text-shadow: 0.1em 0.1em 0.3em #333;
+    color: white;
+}
+
+
+.corpo-container{
+    display: flex;
+    max-width: 100vw;
+}
+
+.autor-container{
+    margin: 3%;
+}
+
+.img-autor{
+    width: 100%;
+    border-radius: 10%;
+}
+
+.desc-autor{
+    text-align: justify;
+}
+
+.conteudo-container{
+    margin: 3% 5% auto auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 100vw;
+}
+
+.titulo-conteudo{
+    font-size: 150%;
+}
+
+.texto-conteudo{
+    text-align: justify;
+}
+
+.img-conteudo{
+    border-radius: 3%;
+}
+
+aside{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 80px; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+    height: 100vh;    
+}
+
+aside ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+aside .icone{
+    width: 45px;
+    transition: 0.3s ease-in-out;
+}
+
+aside .icone:hover{
+    transform: scale(1.2);
+}
+
+
+footer{
+    max-width: 100vw;
+    margin-top: 5%;    
+}
+
+.carrossel-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5%;
+    max-height: 10vw;
+}
+
+.logo-carrossel{
+    height: 10vw;
+}
