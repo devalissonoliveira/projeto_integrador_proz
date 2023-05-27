@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="../styles.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,58 +11,79 @@
 <body>
     <header>
         <nav>
-            <div class="logo">                
-                <img src="../imagens/logo_proz_experience.png" alt="A logo é composta pela descrição PROZ EXPERIENCE em letras maiúsculas, sendo PROZ na cor azul e EXPERIENCE na cor amarela. Além disso, apresenta um símbolo de um sol na cor amarela e algumas gaivotas na cor azul.">
+            <div class="logo">
+                <a href="../index.html">                
+                    <img src="../imagens/logo_proz_experience.png" alt="A logo é composta pela descrição PROZ EXPERIENCE em letras maiúsculas, sendo PROZ na cor azul e EXPERIENCE na cor amarela. Além disso, apresenta um símbolo de um sol na cor amarela e algumas gaivotas na cor azul.">
+                </a>
             </div>
-            <div class="menu">
-                <ul>
-                    <a href="../index.html"><li>HOME</li></a>
-                    <a href="../quem_somos.html"><li>QUEM SOMOS</li></a>
-                    <a href="../destinos.html"><li>DESTINOS</li></a>
-                    <a href="../sug_criadores.html"><li>SUGESTOES DOS CRIADORES</li></a>
+            
+                <ul class="menu">
+                    <a href="../index.html">
+                        <li>
+                            <strong>HOME</strong>
+                        </li>
+                    </a>
+                    <a href="../quem_somos.html">
+                        <li>
+                            <strong>QUEM SOMOS</strong>
+                        </li>
+                    </a>
+                    <a href="../destinos.html">
+                        <li>
+                            <strong>DESTINOS</strong>
+                        </li>
+                    </a>
+                    <a href="../sug_criadores.html">
+                        <li>
+                            <strong>SUGESTÕES DOS CRIADORES</strong>
+                        </li>
+                    </a>
                 </ul>
-            </div>           
-        </nav>
+            </nav>
     </header>
 
     <main>
         <section class="topo-container">
             <img src="../imagens/canoa_quebrada_ceara.jpg" alt="Imagem aérea da praia de Canoa Quebrada, sobrevoando os deslumbrantes morros de areia vermelha, com vista para o mar azul, banhistas e suas barracas de teto de palha.">
-            <h3>Ceará</h3>
-            <h1>Canoa Quebrada</h1>                     
+            <div class="topo-texto">
+                <h3>Ceará</h3>
+                <h1>Canoa Quebrada</h1>
+            </div>                            
         </section>
 
-        <section class="autor-container">
-            <img class="img-autor" src="../imagens/alisson_oliveira.jpeg" alt="Foto de perfil do autor Alisson Oliveira, em preto e branco.">
-            <h3 class="autor">Autor</h3>
-            <h2 class="nome-autor">Alisson Oliveira</h2>
-            <p class="desc-autor">Sou um Bacharel em Administração e Técnico em Informática, com mais de 10 anos de experiência na área de TI. Sempre busco ser ágil e resolutivo em minhas atividades.Além disso, sou um entusiasta da área de programação.</p>
-        </section>
+        <section cLass="corpo-container">
+            <section class="autor-container">
+                <img class="img-autor" src="../imagens/alisson_oliveira.jpeg" alt="Foto de perfil do autor Alisson Oliveira, em preto e branco.">
+                <p class="autor">Autor</p>
+                <h2 class="nome-autor">Alisson Oliveira</h2>
+                <p class="desc-autor">Sou um Bacharel em Administração e Técnico em Informática, com mais de 10 anos de experiência na área de TI. Sempre busco ser ágil e resolutivo em minhas atividades.Além disso, sou um entusiasta da área de programação.</p>
+            </section>
 
-        <section class="conteudo-container">
-            <h1 class="titulo-conteudo"> Descubra a Magia de Canoa Quebrada: Praias Deslumbrantes, Aventuras ao Ar Livre e Sabores Irresistíveis!</h1>
+            <section class="conteudo-container">
+                <h1 class="titulo-conteudo"> Descubra a Magia de Canoa Quebrada: Praias Deslumbrantes, Aventuras ao Ar Livre e Sabores Irresistíveis!</h1>
 
-            <p class="texto-conteudo">A Praia de Canoa Quebrada, localizada no estado do Ceará, Brasil, é um destino turístico bastante popular e atrativo por diversas razões. Aqui estão alguns motivos pelos quais vale a pena visitar essa praia deslumbrante:</p>            
-        
-            <h3 class="titulo-conteudo-menor">Belezas naturais:</h3>            
-            <p class="texto-conteudo">Canoa Quebrada é conhecida por suas paisagens deslumbrantes. Suas falésias coloridas e imponentes oferecem vistas panorâmicas incríveis do oceano. Além disso, a praia possui areias brancas e águas cristalinas, perfeitas para banho e mergulho.</p>
-            <img src="../imagens/simbolo_canoa_quebrada.png" alt="Imagem aérea sobre o lindo mar azul, em frente ao símbolo de Canoa Quebrada, que é representado por uma lua com uma estrela no meio e com o nome Canoa Quebrada ao seu lado esquerdo, desenhado nos morros coloridos com tons de vermelho e branco.">
+                <p class="texto-conteudo">A Praia de Canoa Quebrada, localizada no estado do Ceará, Brasil, é um destino turístico bastante popular e atrativo por diversas razões. Aqui estão alguns motivos pelos quais vale a pena visitar essa praia deslumbrante:</p>            
             
-            <h3 class="titulo-conteudo-menor">Atividades ao ar livre:</h3>            
-            <p class="texto-conteudo">Os visitantes de Canoa Quebrada têm uma variedade de atividades ao ar livre para desfrutar. É possível fazer passeios de buggy pelas dunas, praticar sandboard, passear de jangada e até mesmo fazer voos de parapente sobre as falésias, proporcionando uma experiência emocionante e inesquecível.</p>
+                <h3 class="titulo-conteudo-menor">Belezas naturais:</h3>            
+                <p class="texto-conteudo">Canoa Quebrada é conhecida por suas paisagens deslumbrantes. Suas falésias coloridas e imponentes oferecem vistas panorâmicas incríveis do oceano. Além disso, a praia possui areias brancas e águas cristalinas, perfeitas para banho e mergulho.</p>
+                <img class="img-conteudo" src="../imagens/simbolo_canoa_quebrada.png" alt="Imagem aérea sobre o lindo mar azul, em frente ao símbolo de Canoa Quebrada, que é representado por uma lua com uma estrela no meio e com o nome Canoa Quebrada ao seu lado esquerdo, desenhado nos morros coloridos com tons de vermelho e branco.">
+                
+                <h3 class="titulo-conteudo-menor">Atividades ao ar livre:</h3>            
+                <p class="texto-conteudo">Os visitantes de Canoa Quebrada têm uma variedade de atividades ao ar livre para desfrutar. É possível fazer passeios de buggy pelas dunas, praticar sandboard, passear de jangada e até mesmo fazer voos de parapente sobre as falésias, proporcionando uma experiência emocionante e inesquecível.</p>
 
-            <h3 class="titulo-conteudo-menor">Vida noturna vibrante:</h3>            
-            <p class="texto-conteudo">Canoa Quebrada é famosa por sua vida noturna animada. A rua principal, conhecida como "Broadway", oferece uma variedade de bares, restaurantes e casas noturnas que ficam abertos até tarde da noite. É um ótimo lugar para desfrutar de música ao vivo, dançar e conhecer pessoas de diferentes partes do mundo.</p>
+                <h3 class="titulo-conteudo-menor">Vida noturna vibrante:</h3>            
+                <p class="texto-conteudo">Canoa Quebrada é famosa por sua vida noturna animada. A rua principal, conhecida como "Broadway", oferece uma variedade de bares, restaurantes e casas noturnas que ficam abertos até tarde da noite. É um ótimo lugar para desfrutar de música ao vivo, dançar e conhecer pessoas de diferentes partes do mundo.</p>
 
-            <h3 class="titulo-conteudo-menor">Pousadas aconchegantes:</h3>            
-            <p class="texto-conteudo">A região de Canoa Quebrada possui uma ampla oferta de pousadas e hotéis que atendem a todos os tipos de viajantes e orçamentos. Muitas pousadas estão localizadas próximas à praia e oferecem uma atmosfera tranquila e relaxante, além de serviços e comodidades para tornar a estadia dos turistas mais confortável.</p>
+                <h3 class="titulo-conteudo-menor">Pousadas aconchegantes:</h3>            
+                <p class="texto-conteudo">A região de Canoa Quebrada possui uma ampla oferta de pousadas e hotéis que atendem a todos os tipos de viajantes e orçamentos. Muitas pousadas estão localizadas próximas à praia e oferecem uma atmosfera tranquila e relaxante, além de serviços e comodidades para tornar a estadia dos turistas mais confortável.</p>
 
-            <h3 class="titulo-conteudo-menor">Culinária local:</h3>            
-            <p class="texto-conteudo">A culinária em Canoa Quebrada é um verdadeiro deleite para os amantes da gastronomia. A região oferece uma variedade de pratos à base de frutos do mar frescos, como lagosta, camarão, peixes e caranguejos. Além disso, você encontrará opções de restaurantes com cozinha regional, com pratos típicos do Nordeste brasileiro, como tapiocas, cuscuz e acarajé.</p>
-            <img src="../imagens/culinaria_canoa_quebrada.jpg" alt="Imagem de um prato típico: peixe ao molho de camarão, acompanhado de guarnições de arroz, farofa, vinagrete e feijão. Também é possível observar na imagem limões verdinhos e alface.">
+                <h3 class="titulo-conteudo-menor">Culinária local:</h3>            
+                <p class="texto-conteudo">A culinária em Canoa Quebrada é um verdadeiro deleite para os amantes da gastronomia. A região oferece uma variedade de pratos à base de frutos do mar frescos, como lagosta, camarão, peixes e caranguejos. Além disso, você encontrará opções de restaurantes com cozinha regional, com pratos típicos do Nordeste brasileiro, como tapiocas, cuscuz e acarajé.</p>
+                <img class="img-conteudo" src="../imagens/culinaria_canoa_quebrada.jpg" alt="Imagem de um prato típico: peixe ao molho de camarão, acompanhado de guarnições de arroz, farofa, vinagrete e feijão. Também é possível observar na imagem limões verdinhos e alface.">
 
-            <p class="texto-conteudo">É importante ressaltar que Canoa Quebrada é um destino turístico bastante movimentado, especialmente durante os períodos de alta temporada. Portanto, é recomendável planejar a viagem com antecedência e reservar acomodações com antecedência para garantir uma estadia tranquila e aproveitar ao máximo tudo o que essa praia incrível tem a oferecer.
-            </p>
+                <p class="texto-conteudo">É importante ressaltar que Canoa Quebrada é um destino turístico bastante movimentado, especialmente durante os períodos de alta temporada. Portanto, é recomendável planejar a viagem com antecedência e reservar acomodações com antecedência para garantir uma estadia tranquila e aproveitar ao máximo tudo o que essa praia incrível tem a oferecer.
+                </p>
+            </section>
         </section>
     </main>
 
@@ -70,51 +91,41 @@
         <ul>
             <li>
                 <a href="https://www.instagram.com/" target="_blank">
-                    <img src="../imagens/instagram.png" alt="Logo do Instagram, uma câmera instantânea estilizada em um quadrado arredondado, com um degradê de laranja a roxo. Possui um círculo branco representando a lente.">
+                    <img class="icone" src="../imagens/instagram.png" alt="Logo do Instagram, uma câmera instantânea estilizada em um quadrado arredondado, com um degradê de laranja a roxo. Possui um círculo branco representando a lente.">
                 </a>                
             </li>
             <li>
                 <a href="mailto:exemplo@email.com.br">
-                    <img src="../imagens/email.png" alt="Icone simbolizando um email, imagem de um envelope de carta amarelo aberto, dentro uma pagina branca com um arroba cinza no topo.">
+                    <img class="icone" src="../imagens/email.png" alt="Icone simbolizando um email, imagem de um envelope de carta amarelo aberto, dentro uma pagina branca com um arroba cinza no topo.">
                 </a>                
             </li>
         </ul>       
     </aside>
 
     <footer>
-        <section class="carrocel_rodape">
-            <ul>
-                <li class="logo-carrocel">
-                    <a href="https://www.levitatur.com.br/" target="_blank">
-                        <img src="../imagens/logo_levitatur.png" alt="Logo com a descrição Levita na cor dourada e Tur na cor cinza. Além disso, há cinco estrelas também na cor cinza e um avião na mesma cor posicionado acima da descrição Levita.">
-                    </a>
-                </li>
-
-                <li class="logo-carrocel">
-                    <a href="https://prozeducacao.com.br/" target="_blank">
-                        <img src="../imagens/logo_proz.png" alt="A logo é composta por algumas figuras geométricas, como quadrado, triângulo e círculo, simbolizando a letra P na cor laranja. Apenas um dos triângulos é na cor roxa, e também inclui a escrita Proz na cor roxa, com apenas a letra P maiúscula.">
-                    </a>
-                </li>
-
-                <li class="logo-carrocel">
-                    <a href="https://www.voeazul.com.br/" target="_blank">
-                        <img src="../imagens/logo_azul.png" alt="Uma logo composta pela descrição AZUL Linhas Aéreas Brasileiras, todas na cor azul, sendo que a palavra AZUL em um tom mais escuro. Ao lado, um mapa do Brasil montado por diversas formas geométricas, como quadrados e retângulos, coloridos em várias cores diferentes.">
-                    </a>
-                </li>
-
-                <li class="logo-carrocel">
-                    <a href="https://rockinrio.com/" target="_blank">
-                        <img src="../imagens/logo_rockinrio.png" alt="Uma logo composta pela escrita Rock in Rio na cor vermelha, posicionada acima de um globo azul com uma guitarra no centro, também na mesma cor.">
-                    </a>
-                </li>
-
-                <li class="logo-carrocel">
-                    <a href="https://www.starbucks.com.br/" target="_blank">
-                        <img src="../imagens/logo_starbucks.png" alt="Uma logo que consiste em um círculo verde envolvendo uma sereia de cabelos longos na cor branca no centro, ao lado do nome STARBUCKS disposto em letras maiúsculas.">
-                    </a>
-                </li>
-            </ul>
-        </section>
+        <marquee direction="left" scrollamount="8">
+            <div class="carrossel-container">
+                <a href="https://www.levitatur.com.br/" target="_blank">
+                    <img class="logo-carrossel" src="../imagens/logo_levitatur.png" alt="Logo com a descrição Levita na cor dourada e Tur na cor cinza. Além disso, há cinco estrelas também na cor cinza e um avião na mesma cor posicionado acima da descrição Levita."> 
+                </a>
+            
+                <a href="https://prozeducacao.com.br/" target="_blank">
+                    <img class="logo-carrossel" src="../imagens/logo_proz.png" alt="A logo é composta por algumas figuras geométricas, como quadrado, triângulo e círculo, simbolizando a letra P na cor laranja. Apenas um dos triângulos é na cor roxa, e também inclui a escrita Proz na cor roxa, com apenas a letra P maiúscula.">
+                </a>
+            
+                <a href="https://www.voeazul.com.br/" target="_blank">
+                    <img  class="logo-carrossel" src="../imagens/logo_azul.png" alt="Uma logo composta pela descrição AZUL Linhas Aéreas Brasileiras, todas na cor azul, sendo que a palavra AZUL em um tom mais escuro. Ao lado, um mapa do Brasil montado por diversas formas geométricas, como quadrados e retângulos, coloridos em várias cores diferentes.">
+                </a>
+            
+                <a  href="https://rockinrio.com/" target="_blank">
+                    <img class="logo-carrossel" src="../imagens/logo_rockinrio.png" alt="Uma logo composta pela escrita Rock in Rio na cor vermelha, posicionada acima de um globo azul com uma guitarra no centro, também na mesma cor.">
+                </a>
+            
+                <a  href="https://www.starbucks.com.br/" target="_blank">
+                    <img  class="logo-carrossel" src="../imagens/logo_starbucks.png" alt="Uma logo que consiste em um círculo verde envolvendo uma sereia de cabelos longos na cor branca no centro, ao lado do nome STARBUCKS disposto em letras maiúsculas.">
+                </a>
+            </div>
+        </marquee>      
     </footer>
 </body>
 </html>
