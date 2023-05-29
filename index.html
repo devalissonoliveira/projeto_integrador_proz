@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <link rel="stylesheet" href="../styles.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,63 +11,90 @@
 <body>
     <header>
         <nav>
-            <div class="logo">                
-                <img src="./imagens/logo_proz_experience.png" alt="A logo é composta pela descrição PROZ EXPERIENCE em letras maiúsculas, sendo PROZ na cor azul e EXPERIENCE na cor amarela. Além disso, apresenta um símbolo de um sol na cor amarela e algumas gaivotas na cor azul.">
+            <div class="logo">
+                <a href="./index.html">                
+                    <img src="./imagens/logo_proz_experience.png" alt="A logo é composta pela descrição PROZ EXPERIENCE em letras maiúsculas, sendo PROZ na cor azul e EXPERIENCE na cor amarela. Além disso, apresenta um símbolo de um sol na cor amarela e algumas gaivotas na cor azul.">
+                </a>
             </div>
-            <div class="menu">
-                <ul>
-                    <a href="./index.html"><li>HOME</li></a>
-                    <a href="./quem_somos.html"><li>QUEM SOMOS</li></a>
-                    <a href="./destinos.html"><li>DESTINOS</li></a>
-                    <a href="./sug_criadores.html"><li>SUGESTOES DOS CRIADORES</li></a>
+            
+                <ul class="menu">
+                    <a href="./index.html">
+                        <li>
+                            <strong>HOME</strong>
+                        </li>
+                    </a>
+                    <a href="./quem_somos.html">
+                        <li>
+                            <strong>QUEM SOMOS</strong>
+                        </li>
+                    </a>
+                    <a href="./destinos.html">
+                        <li>
+                            <strong>DESTINOS</strong>
+                        </li>
+                    </a>
+                    <a href="./sug_criadores.html">
+                        <li>
+                            <strong>SUGESTÕES DOS CRIADORES</strong>
+                        </li>
+                    </a>
                 </ul>
-            </div>           
-        </nav>
+            </nav>
     </header>
 
     <main>
         <section class="slides-container">
-            <div id="slide01" class="slide-home">
+            <!-- <div id="slide01" class="slide-home">
                 <img class="imagem-slide" src="./imagens/canoa_quebrada_slide1.jpg" alt="Imagem fotografada do alto mostrando uma praia de ondas calmas do lado esquerdo, com falésias na cor laranja no lado direito, onde é possível ver alguns barcos pequenos na areia e uma cabana no canto inferior esquerdo.">
-                <h1>Canoa Quebrada</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, cupiditate sapiente! Ipsam rem ex nobis, facilis non eius accusantium mollitia. Consectetur vero assumenda cum excepturi vitae deleniti maiores illo veniam.</p>
-                <a class="botao-img-slide" href="./destinos/canoa_quebrada_ceara.html"><button>Saiba mais</button></a>
+                <div class="conteudo-slide">
+                    <h1 class="titulo-slide">Canoa Quebrada</h1>
+                    <p class="texto-slide">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, cupiditate sapiente! Ipsam rem ex nobis, facilis non eius accusantium mollitia. Consectetur vero assumenda cum excepturi vitae deleniti maiores illo veniam.</p>
+                    <a href="./destinos/canoa_quebrada_ceara.html"><button class="btn-img-slide">Saiba mais</button></a>
+                </div>
             </div>
 
             <div id="slide02" class="slide-home">
                 <img class="imagem-slide" src="./imagens/sao_joao_caruaru_slide2.jpg" alt="Imagem representa uma festa junina conhecida como Quadrilha Junina, onde homens e mulheres estão vestidos caracterizados. Os homens vestem camisa e calça coloridas e as mulheres vestem vestidos com saias rodadas também coloridos. Na parte de cima tem vários balões coloridos, e no fundo mostra uma plateia assistindo o espetáculo.">
-                <h1>Caruaru</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ad debitis unde quos consequuntur mollitia et aperiam ducimus quisquam, dicta ipsa sint, iure rem dolores modi animi velit? Qui, doloribus!</p>
-                <a class="botao-img-slide" href="./destinos/caruaru_pernambuco.html"><button>Saiba mais</button></a>
+                <div class="conteudo-slide">
+                    <h1 class="titulo-slide">Caruaru</h1>
+                    <p class="texto-slide">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ad debitis unde quos consequuntur mollitia et aperiam ducimus quisquam, dicta ipsa sint, iure rem dolores modi animi velit? Qui, doloribus!</p>
+                    <a href="./destinos/caruaru_pernambuco.html"><button class="btn-img-slide">Saiba mais</button></a>
+                </div>
             </div>
 
             <div id="slide03" class="slide-home">
                 <img class="imagem-slide" src="./imagens/chapada_diamantina_slide3.jpg" alt="Imagem mostra grandes planaltos coberto com uma vegetação rasteira na cor verde e o céu azul claro sem a presença de nuvens.">
-                <h1>Chapada Diamantina</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quidem omnis, veniam alias doloremque debitis odio, vitae quam rem fugit ipsa dolore neque molestiae consectetur vero natus. Rem, placeat voluptas?</p>
-                <a class="botao-img-slide" href="./destinos/chapada_diamantina_bahia.html"><button>Saiba mais</button></a>
+                <div class="conteudo-slide">
+                    <h1 class="titulo-slide">Chapada Diamantina</h1>
+                    <p class="texto-slide">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quidem omnis, veniam alias doloremque debitis odio, vitae quam rem fugit ipsa dolore neque molestiae consectetur vero natus. Rem, placeat voluptas?</p>
+                    <a href="./destinos/chapada_diamantina_bahia.html"><button class="btn-img-slide">Saiba mais</button></a>
+                </div>
             </div>
 
             <div id="slide04" class="slide-home">
                 <img class="imagem-slide" src="./imagens/salto_sp_slide4.jpg" alt="Imagem faz uma representação de um cenário verde com árvores altas no fundo entre algumas pedras grandes e pequenas plantas tipo cactos. Na área mais central é possível ver dois dinossauros de lados opostos é uma pequena pedra no meio deles. O chão é uma grana bem baixa na cor verde.">
-                <h1>Salto</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, ipsa accusamus! Vitae eveniet iure, magni necessitatibus distinctio excepturi consequatur nemo totam ad facere, optio dolores tenetur, expedita minima illum animi!</p>
-                <a class="botao-img-slide" href="./destinos/salto_sao_paulo.html"><button>Saiba mais</button></a>
-            </div>
+                <div class="conteudo-slide">
+                    <h1 class="titulo-slide">Salto</h1>
+                    <p class="texto-slide">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, ipsa accusamus! Vitae eveniet iure, magni necessitatibus distinctio excepturi consequatur nemo totam ad facere, optio dolores tenetur, expedita minima illum animi!</p>
+                    <a  href="./destinos/salto_sao_paulo.html"><button class="btn-img-slide">Saiba mais</button></a>
+                </div>
+            </div> -->
 
             <div id="slide05" class="slide-home">
                 <img class="imagem-slide" src="./imagens/catedral-da-se-sp-slide5.png" alt="Imagem com efeito fotográfico “olho de peixe”, onde a imagem fica arredondada nas extremidades. Mostra um grande pátio com pessoas espalhadas, tem palmeiras altas nos dois lados, e alguns prédios do lado direito. No fundo mostra uma igreja, estilo catedral com duas torres altas de lados opostos.">
-                <h1>São Paulo</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam minima inventore animi. Repellendus architecto cumque beatae nobis assumenda ad tempora, ex a itaque, aliquid ipsa placeat delectus omnis quo ipsam?</p>
-                <a class="botao-img-slide" href="./destinos/sao_paulo_capital.html"><button>Saiba mais</button></a>
+                <div class="conteudo-slide">
+                    <h1 class="titulo-slide">São Paulo</h1>
+                    <p class="texto-slide">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam minima inventore animi. Repellendus architecto cumque beatae nobis assumenda ad tempora, ex a itaque, aliquid ipsa placeat delectus omnis quo ipsam?</p>
+                    <a href="./destinos/sao_paulo_capital.html"><button  class="btn-img-slide">Saiba mais</button></a>
+                </div>
             </div> 
             
-            <div class="botoes-circulares-slides">
-                <button class="botao-circular-slide"></button>
-                <button class="botao-circular-slide"></button>
-                <button class="botao-circular-slide"></button>
-                <button class="botao-circular-slide"></button>
-                <button class="botao-circular-slide"></button>
+            <div class="btns-circulares-slides">
+                <button class="btn-circular-slide selecionado"></button>
+                <button class="btn-circular-slide"></button>
+                <button class="btn-circular-slide"></button>
+                <button class="btn-circular-slide"></button>
+                <button class="btn-circular-slide"></button>
             </div>
         </section>
     </main>
@@ -75,51 +103,41 @@
         <ul>
             <li>
                 <a href="https://www.instagram.com/" target="_blank">
-                    <img src="./imagens/instagram.png" alt="Logo do Instagram, uma câmera instantânea estilizada em um quadrado arredondado, com um degradê de laranja a roxo. Possui um círculo branco representando a lente.">
+                    <img class="icone" src="./imagens/instagram.png" alt="Logo do Instagram, uma câmera instantânea estilizada em um quadrado arredondado, com um degradê de laranja a roxo. Possui um círculo branco representando a lente.">
                 </a>                
             </li>
             <li>
                 <a href="mailto:exemplo@email.com.br">
-                    <img src="./imagens/email.png" alt="Icone simbolizando um email, imagem de um envelope de carta amarelo aberto, dentro uma pagina branca com um arroba cinza no topo.">
+                    <img class="icone" src="./imagens/email.png" alt="Icone simbolizando um email, imagem de um envelope de carta amarelo aberto, dentro uma pagina branca com um arroba cinza no topo.">
                 </a>                
             </li>
         </ul>       
     </aside>
 
     <footer>
-        <section class="carrocel_rodape">
-            <ul>
-                <li class="logo-carrocel">
-                    <a href="https://www.levitatur.com.br/" target="_blank">
-                        <img src="./imagens/logo_levitatur.png" alt="Logo com a descrição Levita na cor dourada e Tur na cor cinza. Além disso, há cinco estrelas também na cor cinza e um avião na mesma cor posicionado acima da descrição Levita.">
-                    </a>
-                </li>
-
-                <li class="logo-carrocel">
-                    <a href="https://prozeducacao.com.br/" target="_blank">
-                        <img src="./imagens/logo_proz.png" alt="A logo é composta por algumas figuras geométricas, como quadrado, triângulo e círculo, simbolizando a letra P na cor laranja. Apenas um dos triângulos é na cor roxa, e também inclui a escrita Proz na cor roxa, com apenas a letra P maiúscula.">
-                    </a>
-                </li>
-
-                <li class="logo-carrocel">
-                    <a href="https://www.voeazul.com.br/" target="_blank">
-                        <img src="./imagens/logo_azul.png" alt="Uma logo composta pela descrição AZUL Linhas Aéreas Brasileiras, todas na cor azul, sendo que a palavra AZUL em um tom mais escuro. Ao lado, um mapa do Brasil montado por diversas formas geométricas, como quadrados e retângulos, coloridos em várias cores diferentes.">
-                    </a>
-                </li>
-
-                <li class="logo-carrocel">
-                    <a href="https://rockinrio.com/" target="_blank">
-                        <img src="./imagens/logo_rockinrio.png" alt="Uma logo composta pela escrita Rock in Rio na cor vermelha, posicionada acima de um globo azul com uma guitarra no centro, também na mesma cor.">
-                    </a>
-                </li>
-
-                <li class="logo-carrocel">
-                    <a href="https://www.starbucks.com.br/" target="_blank">
-                        <img src="./imagens/logo_starbucks.png" alt="Uma logo que consiste em um círculo verde envolvendo uma sereia de cabelos longos na cor branca no centro, ao lado do nome STARBUCKS disposto em letras maiúsculas.">
-                    </a>
-                </li>
-            </ul>
-        </section>
+        <marquee direction="left" scrollamount="8">
+            <div class="carrossel-container">
+                <a href="https://www.levitatur.com.br/" target="_blank">
+                    <img class="logo-carrossel" src="./imagens/logo_levitatur.png" alt="Logo com a descrição Levita na cor dourada e Tur na cor cinza. Além disso, há cinco estrelas também na cor cinza e um avião na mesma cor posicionado acima da descrição Levita."> 
+                </a>
+            
+                <a href="https://prozeducacao.com.br/" target="_blank">
+                    <img class="logo-carrossel" src="./imagens/logo_proz.png" alt="A logo é composta por algumas figuras geométricas, como quadrado, triângulo e círculo, simbolizando a letra P na cor laranja. Apenas um dos triângulos é na cor roxa, e também inclui a escrita Proz na cor roxa, com apenas a letra P maiúscula.">
+                </a>
+            
+                <a href="https://www.voeazul.com.br/" target="_blank">
+                    <img  class="logo-carrossel" src="./imagens/logo_azul.png" alt="Uma logo composta pela descrição AZUL Linhas Aéreas Brasileiras, todas na cor azul, sendo que a palavra AZUL em um tom mais escuro. Ao lado, um mapa do Brasil montado por diversas formas geométricas, como quadrados e retângulos, coloridos em várias cores diferentes.">
+                </a>
+            
+                <a  href="https://rockinrio.com/" target="_blank">
+                    <img class="logo-carrossel" src="./imagens/logo_rockinrio.png" alt="Uma logo composta pela escrita Rock in Rio na cor vermelha, posicionada acima de um globo azul com uma guitarra no centro, também na mesma cor.">
+                </a>
+            
+                <a  href="https://www.starbucks.com.br/" target="_blank">
+                    <img  class="logo-carrossel" src="./imagens/logo_starbucks.png" alt="Uma logo que consiste em um círculo verde envolvendo uma sereia de cabelos longos na cor branca no centro, ao lado do nome STARBUCKS disposto em letras maiúsculas.">
+                </a>
+            </div>
+        </marquee>      
     </footer>
 </body>
 </html>
