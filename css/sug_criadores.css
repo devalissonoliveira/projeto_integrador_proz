@@ -1,0 +1,38 @@
+/* ---------- MAIN ---------- */
+main{
+    display: flex;
+    max-width: 100vw;
+    padding-top: 8em;
+    margin: auto 4em;
+    justify-content: space-around;
+    gap: 2em;
+}
+
+main .sugestoes-txt-container{
+    width: 50vw;
+}
+
+ p{
+    margin: 0.5em auto 2em auto;
+    text-align: justify;
+}
+
+main .sugestao-img-container .sugestao-img{
+    display: flex;
+    width: 50vw;
+}
+
+main .sugestao-img-container .sugestao-img .img-da-sugestao-maior {
+    max-width: 100%;
+    padding-left: 1em;    
+}
+
+main .sugestao-img-container .sugestao-img-container-menor{
+    display: flex;
+    width: 50vw;
+    gap: 2em;
+}
+
+main .sugestao-img-container .sugestao-img-menor .img-da-sugestao-menor {
+    width: 100%;   
+}
