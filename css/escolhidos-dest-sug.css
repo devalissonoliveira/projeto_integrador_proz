@@ -1,0 +1,73 @@
+/* DESTINOS OU EVENTOS ESCOLHIDOS*/
+main .topo-container {
+    display: flex;
+    max-height: 50vw;
+    position: relative;
+}
+
+
+main .topo-container img {
+    width: 100%;
+}
+
+main .topo-texto {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .topo-texto h3 {
+    font-size: 2rem;
+    text-shadow: 0.1em 0.1em 0.3em #333333;
+    color: #ffffff;
+}
+
+main .topo-texto h1 {
+    font-size: 6rem;
+    text-shadow: 0.1em 0.1em 0.3em #333;
+    color: #ffffff;
+}
+
+main .corpo-container {
+    display: flex;
+    max-width: 100vw;
+    text-align: justify;
+    margin: 2em;
+}
+
+main .corpo-container .autor-container .img-autor {
+    width: 10em;
+    border-radius: 10%;
+}
+
+main .corpo-container .autor-container .nome-autor {
+    margin-bottom: 0.5em;
+    width: 8em;
+}
+
+main .corpo-container .autor-container .desc-autor {
+    width: 11em;
+}
+
+main .corpo-container .conteudo-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 100vw;
+    gap: 1.5em;
+}
+
+main .corpo-container .conteudo-container .titulo-conteudo {
+    font-size: 2.5rem;
+}
+
+main .corpo-container .conteudo-container .img-conteudo {
+    width: 40em;
+    margin: auto;
+    border-radius: 3%;
+}
