@@ -13,14 +13,15 @@ body {
 header {
     position: fixed;
     width: 100%;
-    z-index: 99;
+    z-index: 99;    
+    display: flex;    
+    background: linear-gradient(180deg, rgba(121, 121, 121, 0.5746673669467788) 0%, rgba(255, 255, 255, 0) 80%);    
+    padding: 1em;
 }
 
 header nav {
-    display: flex;
     align-items: center;
-    padding: 1em;
-    background: linear-gradient(180deg, rgba(121, 121, 121, 0.5746673669467788) 0%, rgba(255, 255, 255, 0) 80%);
+    padding-top: 1em;
 }
 
 header nav .menu {

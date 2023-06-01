@@ -13,14 +13,13 @@
 </head>
 <body>
     <header>
+        <div class="logo">
+            <a href="./index.html">                
+                <img src="./imagens/logo_proz_experience.png" alt="A logo é composta pela descrição PROZ EXPERIENCE em letras maiúsculas, sendo PROZ na cor azul e EXPERIENCE na cor amarela. Além disso, apresenta um símbolo de um sol na cor amarela e algumas gaivotas na cor azul.">
+            </a>
+        </div>
         <nav>
-            <div class="logo">
-                <a href="./index.html">                
-                    <img src="./imagens/logo_proz_experience.png" alt="A logo é composta pela descrição PROZ EXPERIENCE em letras maiúsculas, sendo PROZ na cor azul e EXPERIENCE na cor amarela. Além disso, apresenta um símbolo de um sol na cor amarela e algumas gaivotas na cor azul.">
-                </a>
-            </div>
-            
-                <ul class="menu">
+            <ul class="menu">
                     <a href="./index.html">
                         <li>
                             <strong>HOME</strong>
@@ -47,57 +46,71 @@
 
     <main>
         <section class="slides-container">
-            <div id="slide01" class="slide-home">
-                <img class="imagem-slide" src="./imagens/canoa_quebrada_slide1.jpg" alt="Imagem fotografada do alto mostrando uma praia de ondas calmas do lado esquerdo, com falésias na cor laranja no lado direito, onde é possível ver alguns barcos pequenos na areia e uma cabana no canto inferior esquerdo.">
-                <div class="conteudo-slide">
-                    <h1 class="titulo-slide">Canoa Quebrada</h1>
-                    <p class="texto-slide">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, cupiditate sapiente! Ipsam rem ex nobis, facilis non eius accusantium mollitia. Consectetur vero assumenda cum excepturi vitae deleniti maiores illo veniam.</p>
-                    <a href="./html/destinos/canoa_quebrada_ceara.html"><button class="btn-img-slide">Saiba mais</button></a>
+            <div class="slides">
+                <input type="radio" name="slide" id="slide1" checked>
+                <input type="radio" name="slide" id="slide2">
+                <input type="radio" name="slide" id="slide3">
+                <input type="radio" name="slide" id="slide4">
+                <input type="radio" name="slide" id="slide5">
+
+                <div class="slide s1">
+                    <img src="./imagens/canoa_quebrada_slide1.jpg" alt="Imagem fotografada do alto mostrando uma praia de ondas calmas do lado esquerdo, com falésias na cor laranja no lado direito, onde é possível ver alguns barcos pequenos na areia e uma cabana no canto inferior esquerdo.">
+                    <div class="conteudo-slide">
+                        <h1 class="titulo-slide">Canoa Quebrada</h1>
+                        <p class="texto-slide">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, cupiditate sapiente! Ipsam rem ex nobis, facilis non eius accusantium mollitia. Consectetur vero assumenda cum excepturi vitae deleniti maiores illo veniam.</p>
+                        <a href="./html/destinos/canoa_quebrada_ceara.html">
+                            <button class="btn-img-slide">Saiba mais</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="./imagens/sao_joao_caruaru_slide2.jpg" alt="Imagem representa uma festa junina conhecida como Quadrilha Junina, onde homens e mulheres estão vestidos caracterizados. Os homens vestem camisa e calça coloridas e as mulheres vestem vestidos com saias rodadas também coloridos. Na parte de cima tem vários balões coloridos, e no fundo mostra uma plateia assistindo o espetáculo.">
+                    <div class="conteudo-slide">
+                        <h1 class="titulo-slide">Caruaru</h1>
+                        <p class="texto-slide">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ad debitis unde quos consequuntur mollitia et aperiam ducimus quisquam, dicta ipsa sint, iure rem dolores modi animi velit? Qui, doloribus!</p>
+                        <a href="./html/destinos/caruaru_pernambuco.html">
+                            <button class="btn-img-slide">Saiba mais</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="./imagens/chapada_diamantina_slide3.jpg" alt="Imagem mostra grandes planaltos coberto com uma vegetação rasteira na cor verde e o céu azul claro sem a presença de nuvens.">
+                    <div class="conteudo-slide">
+                        <h1 class="titulo-slide">Chapada Diamantina</h1>
+                        <p class="texto-slide">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quidem omnis, veniam alias doloremque debitis odio, vitae quam rem fugit ipsa dolore neque molestiae consectetur vero natus. Rem, placeat voluptas?</p>
+                        <a href="./html/destinos/chapada_diamantina_bahia.html">
+                            <button class="btn-img-slide">Saiba mais</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="./imagens/salto_sp_slide4.jpg" alt="Imagem faz uma representação de um cenário verde com árvores altas no fundo entre algumas pedras grandes e pequenas plantas tipo cactos. Na área mais central é possível ver dois dinossauros de lados opostos é uma pequena pedra no meio deles. O chão é uma grana bem baixa na cor verde.">
+                    <div class="conteudo-slide">
+                        <h1 class="titulo-slide">Salto</h1>
+                        <p class="texto-slide">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, ipsa accusamus! Vitae eveniet iure, magni necessitatibus distinctio excepturi consequatur nemo totam ad facere, optio dolores tenetur, expedita minima illum animi!</p>
+                        <a  href="./html/destinos/salto_sao_paulo.html">
+                            <button class="btn-img-slide">Saiba mais</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="./imagens/catedral-da-se-sp-slide5.png" alt="Imagem com efeito fotográfico “olho de peixe”, onde a imagem fica arredondada nas extremidades. Mostra um grande pátio com pessoas espalhadas, tem palmeiras altas nos dois lados, e alguns prédios do lado direito. No fundo mostra uma igreja, estilo catedral com duas torres altas de lados opostos.">
+                    <div class="conteudo-slide">
+                        <h1 class="titulo-slide">São Paulo</h1>
+                        <p class="texto-slide">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam minima inventore animi. Repellendus architecto cumque beatae nobis assumenda ad tempora, ex a itaque, aliquid ipsa placeat delectus omnis quo ipsam?</p>
+                        <a href="./html/destinos/sao_paulo_capital.html">
+                            <button  class="btn-img-slide">Saiba mais</button>
+                        </a>
+                    </div>
                 </div>
             </div>
 
-            <!-- <div id="slide02" class="slide-home">
-                <img class="imagem-slide" src="./imagens/sao_joao_caruaru_slide2.jpg" alt="Imagem representa uma festa junina conhecida como Quadrilha Junina, onde homens e mulheres estão vestidos caracterizados. Os homens vestem camisa e calça coloridas e as mulheres vestem vestidos com saias rodadas também coloridos. Na parte de cima tem vários balões coloridos, e no fundo mostra uma plateia assistindo o espetáculo.">
-                <div class="conteudo-slide">
-                    <h1 class="titulo-slide">Caruaru</h1>
-                    <p class="texto-slide">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ad debitis unde quos consequuntur mollitia et aperiam ducimus quisquam, dicta ipsa sint, iure rem dolores modi animi velit? Qui, doloribus!</p>
-                    <a href="./html/destinos/caruaru_pernambuco.html"><button class="btn-img-slide">Saiba mais</button></a>
-                </div>
-            </div>
-
-            <div id="slide03" class="slide-home">
-                <img class="imagem-slide" src="./imagens/chapada_diamantina_slide3.jpg" alt="Imagem mostra grandes planaltos coberto com uma vegetação rasteira na cor verde e o céu azul claro sem a presença de nuvens.">
-                <div class="conteudo-slide">
-                    <h1 class="titulo-slide">Chapada Diamantina</h1>
-                    <p class="texto-slide">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quidem omnis, veniam alias doloremque debitis odio, vitae quam rem fugit ipsa dolore neque molestiae consectetur vero natus. Rem, placeat voluptas?</p>
-                    <a href="./html/destinos/chapada_diamantina_bahia.html"><button class="btn-img-slide">Saiba mais</button></a>
-                </div>
-            </div>
-
-            <div id="slide04" class="slide-home">
-                <img class="imagem-slide" src="./imagens/salto_sp_slide4.jpg" alt="Imagem faz uma representação de um cenário verde com árvores altas no fundo entre algumas pedras grandes e pequenas plantas tipo cactos. Na área mais central é possível ver dois dinossauros de lados opostos é uma pequena pedra no meio deles. O chão é uma grana bem baixa na cor verde.">
-                <div class="conteudo-slide">
-                    <h1 class="titulo-slide">Salto</h1>
-                    <p class="texto-slide">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, ipsa accusamus! Vitae eveniet iure, magni necessitatibus distinctio excepturi consequatur nemo totam ad facere, optio dolores tenetur, expedita minima illum animi!</p>
-                    <a  href="./html/destinos/salto_sao_paulo.html"><button class="btn-img-slide">Saiba mais</button></a>
-                </div>
-            </div>
-
-            <div id="slide05" class="slide-home">
-                <img class="imagem-slide" src="./imagens/catedral-da-se-sp-slide5.png" alt="Imagem com efeito fotográfico “olho de peixe”, onde a imagem fica arredondada nas extremidades. Mostra um grande pátio com pessoas espalhadas, tem palmeiras altas nos dois lados, e alguns prédios do lado direito. No fundo mostra uma igreja, estilo catedral com duas torres altas de lados opostos.">
-                <div class="conteudo-slide">
-                    <h1 class="titulo-slide">São Paulo</h1>
-                    <p class="texto-slide">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam minima inventore animi. Repellendus architecto cumque beatae nobis assumenda ad tempora, ex a itaque, aliquid ipsa placeat delectus omnis quo ipsam?</p>
-                    <a href="./html/destinos/sao_paulo_capital.html"><button  class="btn-img-slide">Saiba mais</button></a>
-                </div>
-            </div>  -->
-            
-            <div class="btns-circulares-slides">
-                <button class="btn-circular-slide selecionado"></button>
-                <button class="btn-circular-slide"></button>
-                <button class="btn-circular-slide"></button>
-                <button class="btn-circular-slide"></button>
-                <button class="btn-circular-slide"></button>
+            <div class="navegation">
+                <label class="bar" for="slide1"></label>
+                <label class="bar" for="slide2"></label>
+                <label class="bar" for="slide3"></label>
+                <label class="bar" for="slide4"></label>
+                <label class="bar" for="slide5"></label>
             </div>
         </section>
     </main>
