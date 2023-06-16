@@ -25,12 +25,14 @@ Proz Experience é um site de turismo desenvolvido para o curso de Introdução 
 -  [Tony Cajaiba](https://github.com/TonyCCintra)
 
 <br>
+
 ## :pencil: Projeto
 
 <p align="justify">O site Proz Experience é um guia de turismo para destinos nacionais. Inicialmente conta com destinos sugeridos pelos criadores, que são de cidades e estados diferentes.</p> 
 <p align="justify">O projeto possui um filtro para a escolha de tipos de turismo: Turismo Tradicional, Ecoturismo ou Turismo Culinário.</p>
 
 <br>
+
 ## :computer: Tecnologias
 
 <p align="justify">Esse projeto está em desenvolvimento usando as seguintes tecnologias:</p>
