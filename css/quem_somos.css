@@ -1,0 +1,39 @@
+/* ---------- MAIN ---------- */
+main .corpo-container-qs {
+    max-width: 100vw;
+    position: relative;
+}
+
+main .corpo-container-qs #imagem-bg {
+    max-height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+main .corpo-container-qs .conteudo-container-qs {    
+    position: absolute;
+    top: 8em;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    gap: 2em;    
+    padding: 5em;
+}
+
+main .corpo-container-qs .conteudo-container-qs .conteudo-esq {
+    border: 0.5em solid #ffffff;
+    padding: 2em;
+}
+
+main .corpo-container-qs .conteudo-container-qs .conteudo-esq h1 {
+    margin-bottom: 1em;
+}
+
+main .corpo-container-qs .conteudo-container-qs .conteudo-dir {
+    padding-top: 2em;
+    color: #ffffff;
+    text-shadow: 0.1em 0.1em 0.3em #333333;
+}
