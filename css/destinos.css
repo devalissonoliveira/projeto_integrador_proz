@@ -68,3 +68,8 @@ main .destinos-container .destino .destino-imagem{
     height: 15em;
     object-fit: cover;
 }
+
+#tradicional, #ecoturismo, #culinario{
+    display: flex;
+    padding: 100px 0px 0px 0px;
+}
