@@ -16,7 +16,6 @@ header {
     z-index: 99;    
     display: flex;    
     justify-content: space-around;
-    /* background: rgba(255, 255, 255, 0.479);     */
     background: rgb(255,255,255);
     background: linear-gradient(270deg, rgba(255, 255, 255, 0.562) 23%, rgba(255,255,255,1) 100%);
     padding: 1em;
