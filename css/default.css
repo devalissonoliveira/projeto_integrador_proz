@@ -15,7 +15,10 @@ header {
     width: 100%;
     z-index: 99;    
     display: flex;    
-    background: linear-gradient(180deg, rgba(121, 121, 121, 0.5746673669467788) 0%, rgba(255, 255, 255, 0) 80%);    
+    justify-content: space-around;
+    /* background: rgba(255, 255, 255, 0.479);     */
+    background: rgb(255,255,255);
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0.562) 23%, rgba(255,255,255,1) 100%);
     padding: 1em;
 }
 
