@@ -32,7 +32,6 @@ header nav .menu {
     justify-content: space-between;
     width: 40em;
     margin-left: 3em;
-    color: #593493;
 }
 
 header nav .menu li {
@@ -44,7 +43,12 @@ header nav .menu li:hover {
 }
 
 header nav .menu li {
+    color: #2269a3;
     margin: 0.5em;
+}
+
+header nav .menu li a:visited {
+    color: #2269a3;
 }
 
 /* ---------- ASIDE ---------- */
