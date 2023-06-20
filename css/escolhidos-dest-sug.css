@@ -50,7 +50,9 @@ main .corpo-container .autor-container{
 
 main .corpo-container .autor-container .img-autor {
     width: 12em;
+    height: 12em;    
     border-radius: 10%;
+    object-fit: cover;
 }
 
 main .corpo-container .autor-container .nome-autor {
