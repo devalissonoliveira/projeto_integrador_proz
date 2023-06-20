@@ -7,13 +7,13 @@ Proz Experience é um site de turismo desenvolvido para o curso de Introdução 
 
 <h5 align="center">Logo</h5>
 <p align="center">
-  <img alt="projeto Habits" src="imagens/logo_proz_experience.png" width="25%">
+  <img alt="Logotipo Proz Experience em azul e amarelo" src="imagens/logo_proz_experience.png" width="25%">
 </p>
 <br>
 
 <h5 align="center">Página Inicial</h5>
 <p align="center">
-  <img alt="Página inicial do site Proz Experience" src="imagens/print_index.png" width="100%">
+  <img alt="Página inicial do site Proz Experience" src="imagens/index.png" width="100%">
 </p>
 <br>
 
