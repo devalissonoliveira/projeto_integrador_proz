@@ -15,22 +15,18 @@ header {
     width: 100%;
     z-index: 99;    
     display: flex;    
-    justify-content: space-around;
+    justify-content: flex-start;
+    align-items: center;
     background: rgb(255,255,255);
     background: linear-gradient(270deg, rgba(255, 255, 255, 0.562) 23%, rgba(255,255,255,1) 100%);
-    padding: 1em;
-}
-
-header nav {
-    align-items: center;
-    padding-top: 1em;
+    padding: .3em 1em;
 }
 
 header nav .menu {
     display: flex;
     justify-content: space-between;
-    width: 40em;
-    margin-left: 3em;
+    width: 100%;
+    margin-left: 10em;
 }
 
 header nav .menu li {
@@ -46,7 +42,7 @@ header nav .menu li {
     margin: 0.5em;
 }
 
-header nav .menu li a:visited {
+a:visited {
     color: #2269a3;
 }
 
@@ -82,6 +78,8 @@ aside ul li a .icone:hover {
 
 footer {
     max-width: 100vw;
+    background-color: #ffffff;
+    padding-top: 2em;
 }
 
 footer .carrossel-container {

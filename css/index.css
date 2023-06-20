@@ -26,6 +26,7 @@ main .slides-container .slides .slide img{
     height: 85vh;
     max-height: 85vh;
     object-position: right;
+    object-fit: cover;    
 }
 
 main .slides-container .slides #slide1:checked ~ .s1{
@@ -115,11 +116,6 @@ main .slides-container .navegation .bar:hover{
 }
 
 /* ---------- FOOTER ---------- */
-
-footer {
-    padding-top: 2em;
-}
-
 footer .carrossel-container {
     max-height: 4vw;
 }
