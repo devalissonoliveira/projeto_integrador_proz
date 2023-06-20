@@ -15,6 +15,7 @@ main .filtro-container {
     justify-content: center;
     gap: 2em;
     padding-top: 10em;
+    height: 100vh;
 }
 
 main .filtro-container .filtro-categoria{
@@ -86,7 +87,8 @@ main .destinos-container .destino .destino-imagem{
 }
 
 main .destinos-container .destino h3{
-    color: #000000;
+    color: #ffffff;
+    text-shadow: 0.1em 0.1em 0.3em #333;
 }
 
 #tradicional, #ecoturismo, #culinario{
