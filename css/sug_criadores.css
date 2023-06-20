@@ -46,7 +46,7 @@ main .sugestao-img-container .sugestao-img-container-menor{
     width: 50vw;
     gap: 2em;
 }
-main .sugestao-img-container .sugestao-img-menor{
+main .sugestao-img-container .sugestao-img-menor {
     background-color: #f9f9f9;
     box-shadow: 10px 10px 4px 0px #0000001a;
     padding: 1em;
