@@ -1,0 +1,145 @@
+/* ---------- BODY ---------- */
+body{
+    background-color: #2269a3;
+}
+
+/* ---------- MAIN ---------- */
+main{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main #container-form{
+    height: 26em;
+    width: 25em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: .5em .5em 0em .5em;
+    margin-top: 6em;
+}
+
+main #container-form h2{
+    color: #ffffff;
+    text-shadow: 0.1em 0.1em 0.3em #333333;
+}
+
+main form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20em;
+}
+
+main form label{
+    align-self: self-start;
+    color: #ffffff;
+    text-shadow: 0.1em 0.1em 0.3em #333333;
+    margin-top: 1em;
+    position: relative;
+    width: 100%;
+}
+
+main form label#labelNome{
+    margin-top: 0em;    
+}
+
+main form input, main form textarea{
+    outline: 0;
+    color: #ffffff;
+}
+
+main form input::placeholder, main form textarea::placeholder{
+    color: #ffffff;
+    opacity: 0.7;
+}
+
+main form input,main form input{
+    width: 100%;
+    height: 2em;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+}
+
+main form input#email{
+    margin-bottom: 0;
+}
+
+
+main form #menssagem {
+    width: 100%;
+    height: 8em;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: .5em;
+    margin-bottom: 1;
+}
+
+
+.textoAjuda{
+    text-align: end;
+    width: 100%;
+    align-self: end;
+    font-size: 0.7rem;
+    color: #d80c2a;
+    display: none;
+}
+
+main form #rcbAtualizacao{
+    margin: 1em 0; 
+    width: 1em;
+    height: 1em;
+}
+
+main form #labelRcbAtualizacao{    
+    font-size: 0.7rem;
+    text-shadow: none;
+}
+
+main form button{
+    width: 100%;
+    height: 2.5em;
+    background-color: #593493;
+    color: #ffffff;
+    text-shadow: 0.1em 0.1em 0.3em #333333;
+    border-color: #ffffff;
+    font-size: 1rem;
+}
+
+/* ---------- CLASSES DINAMICAS ---------- */
+
+main form label.required::after{
+    content: 'Preenchimento obrigatório';
+    color: #d80c2a;
+    font-size: 0.7rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: auto;
+    padding-top: 0.5em;
+    display: block;
+    text-shadow: none;
+}
+
+.error{
+    border-bottom: 1px solid #d80c2a;
+    color: #d80c2a;
+}
+
+.visible{
+    display: block;
+}

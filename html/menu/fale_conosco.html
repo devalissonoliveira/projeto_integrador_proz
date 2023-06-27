@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quem Somos - Proz Experience</title>
+    <title>Fale Conosco - Proz Experience</title>
     
     <link rel="stylesheet" href="../../css/reset.css">
     <link rel="icon" href="../../imagens/favicon.png" type="image/x-png">
     <link rel="stylesheet" href="../../css/default.css">
-    <link rel="stylesheet" href="../../css/quem_somos.css">
+    <link rel="stylesheet" href="../../css/fale_conosco.css">
+    <script src="../../js/fala_conosco.js" defer></script>
 </head>
 <body>
     <header>        
@@ -50,21 +51,26 @@
     </header>
 
     <main>
-        <section class="corpo-container-qs">
-            <img id="imagem-bg" src="../../imagens/quem_somos_bg.png" alt="Imagem é composta por um mapa mundi feito com pontos quadriculados na cor amarelo claro, com o fundo amarelo escuro. Uma mala de viagem amarela ao lado esquerdo. Um passaporte, óculos de sol, câmera fotográfica e chapéu sobre a mala.">
-            <div class="conteudo-container-qs">
-                <div class="conteudo-esq">
-                    <h1>QUEM SOMOS</h1>
-                    <p>
-                        Bem-vindo ao nosso mundo de descobertas e aventuras! Somos uma equipe dedicada apaixonada por viagens e estamos entusiasmados em compartilhar nossas experiências e conhecimentos com você. No coração de nosso trabalho está o objetivo de proporcionar uma visualização lean, direta e envolvente aos nossos leitores.
-                    </p>
-                </div>
-                <div class="conteudo-dir">
-                    <p>
-                        Acreditamos que viajar é uma das experiências mais enriquecedoras da vida. Cada destino tem sua própria história, cultura e paisagens deslumbrantes esperando para serem exploradas. Nossa equipe é composta por viajantes e juntos, buscamos trazer informações precisas, dicas valiosas e insights únicos para tornar sua jornada ainda mais gratificante. Nosso site é cuidadosamente projetado para oferecer a você uma experiência descomplicada. Acreditamos na simplicidade e clareza como pilares fundamentais para transmitir informações relevantes sobre destinos, itinerários, dicas de viagem e muito mais. Junte-se a nós nessa aventura e comece a explorar conosco!              
-                    </p>
-                </div>
+        <section id="container-form">
+        <h2>FALE CONOSCO</h2>
+        <form action="">
+            <label for="nome" id="labelNome">Nome</label>
+            <input type="text" name="nome" id="nome" placeholder="Digite seu nome...">
+            
+            <label for="email">E-mail*</label>
+            <input type="email" name="email" id="email" placeholder="Digite seu e-mail..." required>
+            <p class="textoAjuda" id="emailTxtAjuda">textoAjuda</p>
+
+            <label for="menssagem">Menssagem*</label>
+            <textarea name="menssagem" id="menssagem" cols="30" rows="10" placeholder="Digite aqui sua menssagem..." required></textarea>            
+
+            <div id="checkbox">            
+            <input type="checkbox" name="rcbAtualizacao" id="rcbAtualizacao">
+            <label for="rcbAtualizacao" id="labelRcbAtualizacao">Aceito receber atualizações por e-mail.</label>
             </div>
+
+            <button type="submit">Enviar</button>            
+        </form>
         </section>
     </main>
 
