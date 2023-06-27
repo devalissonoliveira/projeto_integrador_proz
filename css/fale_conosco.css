@@ -95,7 +95,7 @@ main form #menssagem {
     width: 100%;
     align-self: end;
     font-size: 0.7rem;
-    color: #ff0000;
+    color: #d80c2a;
     display: none;
 }
 
@@ -124,7 +124,7 @@ main form button{
 
 main form label.required::after{
     content: 'Preenchimento obrigatório';
-    color: #ff0000;
+    color: #d80c2a;
     font-size: 0.7rem;
     position: absolute;
     top: 0;
@@ -136,8 +136,8 @@ main form label.required::after{
 }
 
 .error{
-    border-bottom: 1px solid #f00505;
-    color: #ff0000;
+    border-bottom: 1px solid #d80c2a;
+    color: #d80c2a;
 }
 
 .visible{
