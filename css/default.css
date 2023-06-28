@@ -46,6 +46,11 @@ a:visited {
     color: #2269a3;
 }
 
+div .lupa{
+    height: 35px;
+    width: 35px;
+}
+
 #divbuscar{
     justify-content: space-between;
     height: 40px;
@@ -54,7 +59,7 @@ a:visited {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 400px;
+    margin-left: 250px;
 }
 
 .busca-texto{
