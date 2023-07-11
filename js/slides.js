@@ -86,10 +86,19 @@ const slidesData = [
   }, 3000);
   
   function nextImage() {
+  }, 3000);
+  
+  function nextImage() {
     count++;
     if (count > slidesData.length) {
       count = 1;
+    if (count > slidesData.length) {
+      count = 1;
     }
+  
+    document.getElementById("slide" + count).checked = true;
+  }
+  
   
     document.getElementById("slide" + count).checked = true;
   }
