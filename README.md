@@ -39,4 +39,7 @@ Proz Experience é um site de turismo desenvolvido para o curso de Introdução 
 
 ![My Skills](https://skillicons.dev/icons?i=html,css,js)
 
+<br>
 
+## :globe_with_meridians: Deploy do projeto
+[Clique aqui](https://devalissonoliveira.github.io/projeto_integrador_proz/)
